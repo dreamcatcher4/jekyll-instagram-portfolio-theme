@@ -1,14 +1,14 @@
 # Site settings
 # in the templates available like {{ site.myvariable }}.
-title: Clean portfolio theme for Jekyll powered by Bootstrap 4.
-email: your-email@domain.com
-brand: Your Name
-headline: Inventor, Engineer and Futurist
+title: TheDreamcathcer4
+email: thedreamcatcherteam4@gmail.com
+brand: the_dreamcatcher.4
+headline: Four dreamers with the aspiration of writing
 description: > # this means to ignore newlines until "baseurl:"
   New Site
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://example.com" # the base hostname & protocol for your site
-copyright: 2016 Whatever Company, Inc. All Rights Reserved.
+copyright: 2017 TheDreamcatcher4, Inc. All Rights Reserved.
 
 # Build settings
 markdown: kramdown
@@ -17,9 +17,9 @@ markdown: kramdown
 snapwidget: 247552
 
 # Contacts
-email: your.name@gmail.com
-phone: +1-800-555-2016
+email: thedreamcatcherteam4@gmail.com
+#phone: +1-800-555-2016
 
 # Tracking
-googleAnalitycsID: UA-83933844-1
+#googleAnalitycsID: UA-83933844-1
 
