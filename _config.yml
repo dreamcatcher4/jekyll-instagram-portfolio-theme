@@ -2,7 +2,7 @@
 # in the templates available like {{ site.myvariable }}.
 title: TheDreamcathcer4
 email: thedreamcatcherteam4@gmail.com
-brand: the_dreamcatcher.4
+brand: '@the_dreamcatcher.4'
 headline: Four dreamers with the aspiration of writing
 description: > # this means to ignore newlines until "baseurl:"
   New Site
