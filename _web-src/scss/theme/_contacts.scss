@@ -12,10 +12,11 @@
 
   &-phone,
   &-email {
-    font-size: 1.8rem;
+    font-size: 1rem;
     padding: $spacer;
     border-radius: $border-radius;
     background-color: $theme-color-main;
+    text-align: left;
     transition: background-color 0.3s ease;
 
     @include media-breakpoint-up(md) {
