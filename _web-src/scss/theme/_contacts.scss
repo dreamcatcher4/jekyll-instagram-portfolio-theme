@@ -16,6 +16,7 @@
     padding: $spacer;
     border-radius: $border-radius;
     background-color: $theme-color-main;
+    color: #30F3CD;
     text-align: left;
     transition: background-color 0.3s ease;
 
@@ -33,7 +34,7 @@
   }
 
   & a {
-    color: darken($theme-color-main, 50%);
+    color: #fff;
     text-decoration: none;
   }
 }
