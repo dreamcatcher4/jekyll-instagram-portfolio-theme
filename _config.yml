@@ -1,5 +1,7 @@
 # Site settings
 # in the templates available like {{ site.myvariable }}.
+url: https://thedreamcatcher4.me
+enforce_ssl: thedreamcatcher4.me
 title: TheDreamcatcher4
 email: thedreamcatcherteam4@gmail.com
 brand: '@the_dreamcatcher.4'

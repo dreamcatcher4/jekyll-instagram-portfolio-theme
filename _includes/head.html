@@ -1,12 +1,18 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script type="text/javascript">
+    var host = "thedreamcatcher4.me";
+    if ((host == window.location.host) && (window.location.protocol != "https:"))
+        window.location.protocol = "https";
+    </script>
     <title>{{ site.title }} - {{ site.brand }}</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="{{ site.description }}">
     {% if site.meta_author %}
     <meta name="author" content="{{ site.meta_author }}">
     {% endif %}
+    <link rel="canonical" href=" { { site.url } }{ { page.url } }" />
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link rel="stylesheet" href="./web-dist/css/main.min.css">
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"
