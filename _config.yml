@@ -10,7 +10,6 @@ description: > # this means to ignore newlines until "baseurl:"
   thedreamcatcher4 quotes
   Our Insta Profile Website
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://example.com" # the base hostname & protocol for your site
 copyright: 2017 TheDreamcatcher4, Inc. All Rights Reserved.
 
 meta_author: thedreamcatcher4
@@ -27,4 +26,17 @@ email: thedreamcatcherteam4@gmail.com
 
 # Tracking
 googleAnalitycsID: UA-99078691-1
+
+# Blog page settings
+title-blog: TheDreamcatcher4 Blog
+email-blog: thedreamcatcherteam4@gmail.com
+description-blog: > # this means to ignore newlines until "baseurl:"
+  Hi we are the dreamcatchers and we are here to provide you some
+  mesmerising content. We also have a Instagram Profile with some 
+  really useful quotes at @thedreamcatcher4.
+baseurl-blog: "" # the subpath of your site, e.g. /blog
+url-blog: "" # the base hostname & protocol for your site
+github_username-blog:    ganeshi4u
+instagram_username-blog: thedreamcatcher4
+#twitter_username-blog:   jekyllrb
 

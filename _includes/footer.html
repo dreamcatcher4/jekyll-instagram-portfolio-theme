@@ -1,0 +1,44 @@
+<footer class="site-footer">
+
+	<div class="wrapper">
+
+		<h2 class="footer-heading">{{ site.title-blog }} • <a href="{{ site.baseurl-blog }}/table-of-contents">Table of Contents</a></h2>
+
+		<div class="footer-col-wrapper">
+			<div class="footer-col footer-col-1">
+				<ul class="contact-list">
+					<li>{{ site.title }}</li>
+					<li><a href="mailto:{{ site.email-blog }}">{{ site.email-blog }}</a></li>
+				</ul>
+			</div>
+
+			<div class="footer-col footer-col-2">
+				<ul class="social-media-list">
+					{% if site.github_username-blog %}
+					<li>
+						{% include icon-github.html username=site.github_username-blog %}
+					</li>
+					{% endif %}
+
+					{% if site.instagram_username-blog %}
+					<li>
+						{% include icon-instagram.html username=site.instagram_username-blog %}
+					</li>
+					{% endif %}
+
+					{% if site.twitter_username-blog %}
+					<li>
+						{% include icon-twitter.html username=site.twitter_username-blog %}
+					</li>
+					{% endif %}
+				</ul>
+			</div>
+
+			<div class="footer-col footer-col-3">
+				<p>{{ site.description-blog }}</p>
+			</div>
+		</div>
+
+	</div>
+
+</footer>
