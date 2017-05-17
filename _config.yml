@@ -28,3 +28,69 @@ email: thedreamcatcherteam4@gmail.com
 # Tracking
 googleAnalitycsID: UA-99078691-1
 
+
+# Blog starts here
+title-blog:            TheDreamcatcher4
+tagline:          The Dream Land.
+description-blog:      Describe your website.
+canonical: https://thedreamcatcher4.me
+
+# Owner/author information
+owner:
+  name:           thedreamcatcher4
+  avatar:         avatar.png
+  bio:            "Personal Blog & Quotes"
+  email:          thedreamcatcherteam4@gmail.com
+  #twitter:        twnsndco
+  github:         thedreamcatcher4
+  instagram:      thedreamcatcher4
+  #dribbble:       coletownsend
+  disqus:         thedreamcatcher4
+  location:       "Hyderabad, IN"
+  # Plug in your disqus shortname!
+
+tools:
+  standards:      "HTML, SCSS, Jekyll"
+  software:       "git"
+
+# Open Graph customization
+opengraph:
+  locale:           en_US
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: About
+    url: /about
+  - title: thedreamcatcher4 Who?
+    url: https://www.instagram.com/thedreamcatcher4/
+    external: true
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    Asia/Kolkata
+future:      true
+highlighter: pygments
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  coderay: false
+
+  coderay:
+    line_numbers:
+    line_numbers_start: 1
+    tab_width: 4
+    bold_every: 10
+    css: class
+
+sass:
+    style: :compressed
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp"]
+

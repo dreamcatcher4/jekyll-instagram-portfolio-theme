@@ -78,4 +78,19 @@
     }
   }
 
+  .button {
+    cursor: pointer;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: $border-radius-sm;
+    background-color: $theme-color-main;
+    transition: background-color 0.3s ease;
+    border: none;
+    text-decoration: none;
+      @include media-breakpoint-up(lg) {
+      height: 3rem;
+      line-height: 3rem;
+    }
+  }
+
 }
