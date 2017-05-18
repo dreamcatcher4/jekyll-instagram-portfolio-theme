@@ -1,7 +1,13 @@
 <!doctype html>
 <html lang="en" prefix="og: http://ogp.me/ns#">
 <meta charset="utf-8">
+<script type="text/javascript">
+    var host = "thedreamcatcher4.me";
+    if ((host == window.location.host) && (window.location.protocol != "https:"))
+        window.location.protocol = "https";
+</script>
 <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title-blog }}</title>
+<link rel="canonical" href=" { { site.url } }{ { page.url } }" />
 <meta name="description" content="{{ page.description-blog }}">
 <meta name="keywords" content="{{ page.tags | join: ', ' }}">
 
