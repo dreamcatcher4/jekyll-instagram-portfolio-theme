@@ -10,7 +10,7 @@ description: > # this means to ignore newlines until "baseurl:"
   thedreamcatcher4 quotes
   Our Insta Profile Website
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://example.com" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 copyright: 2017 TheDreamcatcher4, Inc. All Rights Reserved.
 
 meta_author: thedreamcatcher4
@@ -69,7 +69,7 @@ links:
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Kolkata
 future:      true
-highlighter: pygments
+highlighter: rouge
 
 kramdown:
   auto_ids: true

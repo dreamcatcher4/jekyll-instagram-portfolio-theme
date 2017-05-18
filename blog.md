@@ -1,7 +1,7 @@
 ---
 layout: home
 title: "Recent Posts"
-tags: [Jekyll, theme, responsive, blog, template]
+tags: [thedreamcatcher4, posts, quotes, blog, instagram]
 image:
   feature: typewriter.jpg
 ---
