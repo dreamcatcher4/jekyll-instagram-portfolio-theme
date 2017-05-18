@@ -3,7 +3,7 @@
 url: https://thedreamcatcher4.me
 enforce_ssl: thedreamcatcher4.me
 title: TheDreamcatcher4
-email: thedreamcatcherteam4@gmail.com
+email: thedreamcatcher4team@gmail.com
 brand: 'thedreamcatcher4'
 headline: Four dreamers with a zeal for writing
 description: > # this means to ignore newlines until "baseurl:"
@@ -40,7 +40,7 @@ owner:
   name:           thedreamcatcher4
   avatar:         avatar.png
   bio:            "Personal Blog & Quotes"
-  email:          thedreamcatcherteam4@gmail.com
+  email:          thedreamcatcher4team@gmail.com
   #twitter:        twnsndco
   github:         thedreamcatcher4
   instagram:      thedreamcatcher4
