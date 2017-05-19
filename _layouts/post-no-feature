@@ -22,6 +22,8 @@
 
         {{ content }}
 
+        <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us15.list-manage.com","uuid":"bec211ac5ed1f5cbad9327fbb","lid":"f5f11815f9"}) })</script>
+
       </article>
     </section>
 </div>
