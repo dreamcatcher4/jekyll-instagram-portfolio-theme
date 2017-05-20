@@ -7,11 +7,10 @@ email: thedreamcatcher4team@gmail.com
 brand: 'thedreamcatcher4'
 headline: Four dreamers with a zeal for writing
 description: > # this means to ignore newlines until "baseurl:"
-  thedreamcatcher4 quotes
-  Our Insta Profile Website
+  We are thedreamcatcher4 from instagram, a team of 4 writers. All our quotes and blog posts are published over here.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
-copyright: 2017 TheDreamcatcher4, Inc. All Rights Reserved.
+copyright: 2017 thedreamcatcher4, Inc. All Rights Reserved.
 
 meta_author: thedreamcatcher4
 
@@ -31,7 +30,7 @@ googleAnalitycsID: UA-99078691-1
 # Blog starts here
 title-blog:            thedreamcatcher4 Blog
 tagline:          The DreamLand.
-description-blog:      We are the TheDreamcatcher4, This is our blog and we also have an Instagram account where we post some mesmarizing quotes daily.
+description-blog:      We are the thedreamcatcher4, This is our blog and we also have an Instagram account where we post some mesmarizing quotes daily.
 canonical: https://thedreamcatcher4.me
 
 # Owner/author information
