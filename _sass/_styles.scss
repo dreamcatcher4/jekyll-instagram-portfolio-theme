@@ -336,6 +336,14 @@ header.site-header nav {
         .intro {
             text-align: left;
         }
+        .me {
+            position: relative;
+            font-size: $fs5;
+            font-weight: bold;
+            font-family: $sans;
+            color: $black;
+            margin-top: -33px;
+        }
     }
 }
 
@@ -374,7 +382,6 @@ header.site-header nav {
             display: block;
             float: none;
             font-size: $fs3;
-            margin-bottom: $lh*2;
             position: relative;
             
             a {
@@ -436,6 +443,16 @@ header.site-header nav {
             color: $grey-light;
             text-transform: uppercase;
             vertical-align: middle;
+        }
+
+        .me {
+            position: relative;
+            font-size: $fs5;
+            font-weight: bold;
+            font-family: $sans;
+            color: $grey-light;
+            margin-top: -33px;
+            margin-bottom: $lh*2;
         }
     }
 }

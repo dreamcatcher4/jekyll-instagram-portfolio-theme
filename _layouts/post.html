@@ -19,6 +19,21 @@
         <header class="post-header">
           <hgroup>
             <h1>{{page.title}}</h1>
+            <p class="me">
+                              {% if page.me contains 'ganesh varma' %}
+                              By: <a href="https://www.instagram.com/ganeshi4u">{{ page.me }}</a>
+
+                              {% elsif page.me contains 'unnati sharma' %}
+                              By: <a href="https://www.instagram.com/unnatijonnavithula">{{ page.me }}</a>
+
+                              {% elsif page.me contains 'siddhartha' %}
+                              By: <a href="https://www.instagram.com/vidhyadharaa">{{ page.me }}</a>
+
+                              {% else %}
+                              By: {{ page.me }}
+                              {% endif %}
+            </p>
+
             <p class="date">{{page.date | date: "%b %d, %Y" }}</p>
             <p class="intro">{% if page.description-blog %}{{ page.description-blog }}{% else %}{{ page.tagline }}{% endif %}</p>
           </hgroup>

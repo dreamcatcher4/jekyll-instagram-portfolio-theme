@@ -10,9 +10,23 @@
                     <div class="deets" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
                         <h1><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h1>
                         <p class="date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></p>
-                        <p class="">{% if post.description %}{{ post.description  | strip_html | strip_newlines | truncate: 120 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
+                        <p class="">{% if post.description %}{{ post.description  | strip_html | strip_newlines | truncate: 120 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %} </p>
                     </div>
                   </li>
+                        <p class="me">
+                              {% if post.me contains 'ganesh varma' %}
+                              By: <a href="https://www.instagram.com/ganeshi4u">{{ post.me }}</a>
+
+                              {% elsif post.me contains 'unnati sharma' %}
+                              By: <a href="https://www.instagram.com/unnatijonnavithula">{{ post.me }}</a>
+
+                              {% elsif post.me contains 'siddhartha' %}
+                              By: <a href="https://www.instagram.com/vidhyadharaa">{{ post.me }}</a>
+
+                              {% else %}
+                              By: {{ post.me }}
+                              {% endif %}
+                        </p>
                   {% endfor %}
               </ol>
           </article>

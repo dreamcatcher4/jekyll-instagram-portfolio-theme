@@ -4,6 +4,7 @@ title: Introvert
 description: "The Life of an Introvert"
 category: articles
 comments: true
+me: "ganesh varma"
 tags: [introvert, life, firstpost, thedreamcatcher4, instagram, posts, quotes]
 image:
   feature: "introvert-head.jpg"
