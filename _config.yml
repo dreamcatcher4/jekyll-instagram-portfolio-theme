@@ -37,15 +37,15 @@ name: 'TheDreamcatcher4 Blog'
 description-blog: "A beautiful narrative written with the world's most elegant publishing platform. The story begins here."
 
 # Author's info
-author: 'Casper McFadden'
+author: "ganesh"
 # edit 'categories' in the front matter of every post to match this username
-nickname: casper
-bio: 'A paranormal expert and his daughter bunk in an abandoned house populated by 3 mischievous ghosts and one friendly one.'
-location: 'Maine, USA'
-url: 'http://biomadeira.github.io/jasper/'
-image: 'assets/images/casper.png'
+#nickname: casper
+#bio: 'A paranormal expert and his daughter bunk in an abandoned house populated by 3 mischievous ghosts and one friendly one.'
+#location: 'Maine, USA'
+#url: 'http://biomadeira.github.io/jasper/'
+#image: 'assets/images/casper.png'
 
-short_url: 'biomadeira.github.io/jasper/'
+#short_url: 'biomadeira.github.io/jasper/'
 disqus: thedreamcatcher4
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
 baseurl: /

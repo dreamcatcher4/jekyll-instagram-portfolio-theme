@@ -1,0 +1,24 @@
+ganesh:
+    nickname: 'ganesh'
+    name: "ganesh varma"
+    bio: 'Tech enthusiast, Writer'
+    location: 'Hyderabad'
+    image: '/assets/images/authors/ganesh.jpg'
+    url: 'http://ganeshvarma.me'
+    short_url: 'ganeshvarma.me'
+unnati:
+     nickname: 'unnati'
+     name: "unnati sharma"
+     bio: 'Writer'
+     location: 'Hyderabad'
+     image: '/assets/images/authors/unnati.png'
+     url: 'https://www.instagram.com/unnatijonnavithula/'
+     short_url: 'unnati'
+siddhartha:
+     nickname: 'siddhartha'
+     name: "siddhartha vidhyadharaa"
+     bio: 'Writer'
+     location: 'Hyderabad'
+     image: '/assets/images/authors/sid.png'
+     url: 'https://www.instagram.com/vidhyadharaa/'
+     short_url: 'vidhyadharaa'
